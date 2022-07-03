@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92E8CC46FE83D2E20A3B3755 /* Pods_BankPretium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BE448E6428F26579A51166 /* Pods_BankPretium.framework */; };
+		E67648C0287028FB00CEEEB2 /* BankHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648BF287028FB00CEEEB2 /* BankHelper.swift */; };
+		E67648C428702BB400CEEEB2 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648C328702BB400CEEEB2 /* Customer.swift */; };
+		E67648C728702EFA00CEEEB2 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648C628702EFA00CEEEB2 /* UIViewController+Extensions.swift */; };
+		E67648C92870301600CEEEB2 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648C82870301600CEEEB2 /* AccountsViewController.swift */; };
+		E67648CB2870302200CEEEB2 /* TransfersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648CA2870302200CEEEB2 /* TransfersViewController.swift */; };
+		E67648CD2870302F00CEEEB2 /* ExchangesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648CC2870302F00CEEEB2 /* ExchangesViewController.swift */; };
+		E67648CF2870616D00CEEEB2 /* AccountsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648CE2870616D00CEEEB2 /* AccountsTableViewCell.swift */; };
+		E67648D32870673100CEEEB2 /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648D22870673100CEEEB2 /* AddAccountViewController.swift */; };
+		E67648D528706D6000CEEEB2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648D428706D6000CEEEB2 /* Account.swift */; };
+		E67648D7287078BE00CEEEB2 /* AccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648D6287078BE00CEEEB2 /* AccountDetailsViewController.swift */; };
+		E67648D928707DE800CEEEB2 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648D828707DE800CEEEB2 /* Notification.swift */; };
+		E67648DB28707F7C00CEEEB2 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648DA28707F7C00CEEEB2 /* NotificationsTableViewCell.swift */; };
+		E67648DD2870944A00CEEEB2 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67648DC2870944A00CEEEB2 /* Date+Extensions.swift */; };
+		E67D1496286F8AA800D4E983 /* ApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67D1495286F8AA800D4E983 /* ApplyViewController.swift */; };
+		E6ADEDF1286F7DD6003CE4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ADEDF0286F7DD5003CE4F3 /* AppDelegate.swift */; };
+		E6ADEDF3286F7DD6003CE4F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ADEDF2286F7DD6003CE4F3 /* SceneDelegate.swift */; };
+		E6ADEDF5286F7DD6003CE4F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ADEDF4286F7DD6003CE4F3 /* ViewController.swift */; };
+		E6ADEDF8286F7DD6003CE4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ADEDF6286F7DD6003CE4F3 /* Main.storyboard */; };
+		E6ADEDFA286F7DD6003CE4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6ADEDF9286F7DD6003CE4F3 /* Assets.xcassets */; };
+		E6ADEDFD286F7DD6003CE4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ADEDFB286F7DD6003CE4F3 /* LaunchScreen.storyboard */; };
+		E6ADEE07286F7E5E003CE4F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6ADEE06286F7E5E003CE4F3 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F6BF1D359D1D325D379C8A3 /* Pods-BankPretium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankPretium.debug.xcconfig"; path = "Target Support Files/Pods-BankPretium/Pods-BankPretium.debug.xcconfig"; sourceTree = "<group>"; };
+		59785705CB13032C32826BAB /* Pods-BankPretium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankPretium.release.xcconfig"; path = "Target Support Files/Pods-BankPretium/Pods-BankPretium.release.xcconfig"; sourceTree = "<group>"; };
+		D1BE448E6428F26579A51166 /* Pods_BankPretium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankPretium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67648BF287028FB00CEEEB2 /* BankHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankHelper.swift; sourceTree = "<group>"; };
+		E67648C328702BB400CEEEB2 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		E67648C628702EFA00CEEEB2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		E67648C82870301600CEEEB2 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		E67648CA2870302200CEEEB2 /* TransfersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfersViewController.swift; sourceTree = "<group>"; };
+		E67648CC2870302F00CEEEB2 /* ExchangesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangesViewController.swift; sourceTree = "<group>"; };
+		E67648CE2870616D00CEEEB2 /* AccountsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewCell.swift; sourceTree = "<group>"; };
+		E67648D22870673100CEEEB2 /* AddAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
+		E67648D428706D6000CEEEB2 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		E67648D6287078BE00CEEEB2 /* AccountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewController.swift; sourceTree = "<group>"; };
+		E67648D828707DE800CEEEB2 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		E67648DA28707F7C00CEEEB2 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		E67648DC2870944A00CEEEB2 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		E67D1495286F8AA800D4E983 /* ApplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyViewController.swift; sourceTree = "<group>"; };
+		E6ADEDED286F7DD5003CE4F3 /* BankPretium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankPretium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6ADEDF0286F7DD5003CE4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6ADEDF2286F7DD6003CE4F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6ADEDF4286F7DD6003CE4F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6ADEDF7286F7DD6003CE4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6ADEDF9286F7DD6003CE4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6ADEDFC286F7DD6003CE4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6ADEDFE286F7DD6003CE4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6ADEE06286F7E5E003CE4F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6ADEDEA286F7DD5003CE4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E8CC46FE83D2E20A3B3755 /* Pods_BankPretium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463A590A44102BC4938EAC59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F6BF1D359D1D325D379C8A3 /* Pods-BankPretium.debug.xcconfig */,
+				59785705CB13032C32826BAB /* Pods-BankPretium.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		801B0EF54832C8B4CA62DB17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BE448E6428F26579A51166 /* Pods_BankPretium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E67648BE2870285300CEEEB2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E67648BF287028FB00CEEEB2 /* BankHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E67648C128702A9300CEEEB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E6ADEDF4286F7DD6003CE4F3 /* ViewController.swift */,
+				E67D1495286F8AA800D4E983 /* ApplyViewController.swift */,
+				E67648C82870301600CEEEB2 /* AccountsViewController.swift */,
+				E67648CA2870302200CEEEB2 /* TransfersViewController.swift */,
+				E67648CC2870302F00CEEEB2 /* ExchangesViewController.swift */,
+				E67648CE2870616D00CEEEB2 /* AccountsTableViewCell.swift */,
+				E67648D22870673100CEEEB2 /* AddAccountViewController.swift */,
+				E67648D6287078BE00CEEEB2 /* AccountDetailsViewController.swift */,
+				E67648DA28707F7C00CEEEB2 /* NotificationsTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E67648C228702BA100CEEEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E67648C328702BB400CEEEB2 /* Customer.swift */,
+				E67648D428706D6000CEEEB2 /* Account.swift */,
+				E67648D828707DE800CEEEB2 /* Notification.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E67648C528702ECF00CEEEB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E67648C628702EFA00CEEEB2 /* UIViewController+Extensions.swift */,
+				E67648DC2870944A00CEEEB2 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E6ADEDE4286F7DD5003CE4F3 = {
+			isa = PBXGroup;
+			children = (
+				E6ADEDEF286F7DD5003CE4F3 /* BankPretium */,
+				E6ADEDEE286F7DD5003CE4F3 /* Products */,
+				463A590A44102BC4938EAC59 /* Pods */,
+				801B0EF54832C8B4CA62DB17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6ADEDEE286F7DD5003CE4F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6ADEDED286F7DD5003CE4F3 /* BankPretium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6ADEDEF286F7DD5003CE4F3 /* BankPretium */ = {
+			isa = PBXGroup;
+			children = (
+				E67648C528702ECF00CEEEB2 /* Extensions */,
+				E67648C228702BA100CEEEB2 /* Model */,
+				E67648C128702A9300CEEEB2 /* ViewController */,
+				E67648BE2870285300CEEEB2 /* Helper */,
+				E6ADEE06286F7E5E003CE4F3 /* GoogleService-Info.plist */,
+				E6ADEDF0286F7DD5003CE4F3 /* AppDelegate.swift */,
+				E6ADEDF2286F7DD6003CE4F3 /* SceneDelegate.swift */,
+				E6ADEDF6286F7DD6003CE4F3 /* Main.storyboard */,
+				E6ADEDF9286F7DD6003CE4F3 /* Assets.xcassets */,
+				E6ADEDFB286F7DD6003CE4F3 /* LaunchScreen.storyboard */,
+				E6ADEDFE286F7DD6003CE4F3 /* Info.plist */,
+			);
+			path = BankPretium;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6ADEDEC286F7DD5003CE4F3 /* BankPretium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6ADEE01286F7DD6003CE4F3 /* Build configuration list for PBXNativeTarget "BankPretium" */;
+			buildPhases = (
+				5BC26D0DCDEC674937691558 /* [CP] Check Pods Manifest.lock */,
+				E6ADEDE9286F7DD5003CE4F3 /* Sources */,
+				E6ADEDEA286F7DD5003CE4F3 /* Frameworks */,
+				E6ADEDEB286F7DD5003CE4F3 /* Resources */,
+				28C040B14189C3079D37CD82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankPretium;
+			productName = BankPretium;
+			productReference = E6ADEDED286F7DD5003CE4F3 /* BankPretium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6ADEDE5286F7DD5003CE4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E6ADEDEC286F7DD5003CE4F3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E6ADEDE8286F7DD5003CE4F3 /* Build configuration list for PBXProject "BankPretium" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6ADEDE4286F7DD5003CE4F3;
+			productRefGroup = E6ADEDEE286F7DD5003CE4F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6ADEDEC286F7DD5003CE4F3 /* BankPretium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6ADEDEB286F7DD5003CE4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ADEDFD286F7DD6003CE4F3 /* LaunchScreen.storyboard in Resources */,
+				E6ADEE07286F7E5E003CE4F3 /* GoogleService-Info.plist in Resources */,
+				E6ADEDFA286F7DD6003CE4F3 /* Assets.xcassets in Resources */,
+				E6ADEDF8286F7DD6003CE4F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28C040B14189C3079D37CD82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankPretium/Pods-BankPretium-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankPretium/Pods-BankPretium-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BankPretium/Pods-BankPretium-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC26D0DCDEC674937691558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankPretium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6ADEDE9286F7DD5003CE4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67648DB28707F7C00CEEEB2 /* NotificationsTableViewCell.swift in Sources */,
+				E67648CB2870302200CEEEB2 /* TransfersViewController.swift in Sources */,
+				E67648D7287078BE00CEEEB2 /* AccountDetailsViewController.swift in Sources */,
+				E67648D528706D6000CEEEB2 /* Account.swift in Sources */,
+				E6ADEDF5286F7DD6003CE4F3 /* ViewController.swift in Sources */,
+				E67648C0287028FB00CEEEB2 /* BankHelper.swift in Sources */,
+				E67D1496286F8AA800D4E983 /* ApplyViewController.swift in Sources */,
+				E67648CF2870616D00CEEEB2 /* AccountsTableViewCell.swift in Sources */,
+				E67648DD2870944A00CEEEB2 /* Date+Extensions.swift in Sources */,
+				E67648C728702EFA00CEEEB2 /* UIViewController+Extensions.swift in Sources */,
+				E67648CD2870302F00CEEEB2 /* ExchangesViewController.swift in Sources */,
+				E67648C428702BB400CEEEB2 /* Customer.swift in Sources */,
+				E6ADEDF1286F7DD6003CE4F3 /* AppDelegate.swift in Sources */,
+				E67648D928707DE800CEEEB2 /* Notification.swift in Sources */,
+				E67648C92870301600CEEEB2 /* AccountsViewController.swift in Sources */,
+				E67648D32870673100CEEEB2 /* AddAccountViewController.swift in Sources */,
+				E6ADEDF3286F7DD6003CE4F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6ADEDF6286F7DD6003CE4F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6ADEDF7286F7DD6003CE4F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6ADEDFB286F7DD6003CE4F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6ADEDFC286F7DD6003CE4F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6ADEDFF286F7DD6003CE4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6ADEE00286F7DD6003CE4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6ADEE02286F7DD6003CE4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6BF1D359D1D325D379C8A3 /* Pods-BankPretium.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankPretium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turgayceylan.BankPretium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6ADEE03286F7DD6003CE4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59785705CB13032C32826BAB /* Pods-BankPretium.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankPretium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turgayceylan.BankPretium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6ADEDE8286F7DD5003CE4F3 /* Build configuration list for PBXProject "BankPretium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6ADEDFF286F7DD6003CE4F3 /* Debug */,
+				E6ADEE00286F7DD6003CE4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6ADEE01286F7DD6003CE4F3 /* Build configuration list for PBXNativeTarget "BankPretium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6ADEE02286F7DD6003CE4F3 /* Debug */,
+				E6ADEE03286F7DD6003CE4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6ADEDE5286F7DD5003CE4F3 /* Project object */;
+}
