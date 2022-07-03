@@ -1,5 +1,4 @@
 # simple-bank-app
-<h1>Simple Bank Application</h1>
 <p>I used Swift(Storyboard), Firebase, Live Currency API on this application.</p>
 <br>
 <b>The features are</b>
