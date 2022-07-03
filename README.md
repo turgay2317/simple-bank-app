@@ -12,4 +12,5 @@
 </ul>
 
 You can show all features from that video https://www.youtube.com/watch?v=CUv1An1WWsA
-<img src="https://user-images.githubusercontent.com/90829101/177058472-c9b976be-f170-47e5-bcd7-a9281867f5ba.png" height="100px">
+<br>
+<img src="https://user-images.githubusercontent.com/90829101/177058472-c9b976be-f170-47e5-bcd7-a9281867f5ba.png" height="250px">
