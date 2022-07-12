@@ -1,6 +1,0 @@
-framework module Pods_BankPretium {
-  umbrella header "Pods-BankPretium-umbrella.h"
-
-  export *
-  module * { export * }
-}
